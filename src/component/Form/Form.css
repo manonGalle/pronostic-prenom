@@ -1,0 +1,24 @@
+.Container {
+    border:1px solid black;
+    width: 800px;
+    height: 100vh;
+
+}
+
+.Form {
+    display: flex;
+}
+
+.Form-input {
+    margin:10px;
+}
+
+.textarea{
+    height: 100px;
+    width: 500px;
+}
+
+h2, a {
+    text-align: center;
+    font-size: 15px;
+}
