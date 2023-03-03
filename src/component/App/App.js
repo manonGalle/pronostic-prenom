@@ -10,9 +10,9 @@ function App() {
 
   return (
     <div className="App">
-      <Form setFirstname={setFirstname} firstname={firstname}/>
       <Routes>
-        <Route path="/thanks" element={<Thanks firstname={firstname}/>}/>
+        <Route path="/" element= {<Form setFirstname={setFirstname} firstname={firstname} />} />
+        <Route path="/thanks" element={<Thanks firstname={firstname} />}/>
       </Routes>
     </div>
   );

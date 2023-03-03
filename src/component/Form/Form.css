@@ -1,12 +1,14 @@
-.Container {
-    border:1px solid black;
-    width: 800px;
+body {
+    padding: 1em;
+    margin: 0 auto;
+    background: linear-gradient(#acd3ce, #46b2a6);
     height: 100vh;
-
+    font-family: 'Shantell Sans', cursive;
 }
 
 .Form {
     display: flex;
+    flex-direction: column;
 }
 
 .Form-input {
@@ -21,4 +23,16 @@
 h2, a {
     text-align: center;
     font-size: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.guest {
+    font-size: 25px;
+}
+
+.want {
+    text-decoration: underline;
 }
